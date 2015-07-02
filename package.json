@@ -15,7 +15,7 @@
     "mocha": "node node_modules/.bin/mocha packages/**/server/tests/**/*.js -R spec -r tools/test/mocha-req.js",
     "karma": "node node_modules/karma/bin/karma start karma.conf.js",
     "test": "npm run mocha && NODE_ENV=test npm run start & sleep 20 && npm run karma",
-    "postinstall": "node tools/scripts/postinstall.js && bower install && gulp build-libs && gulp build"
+    "postinstall": "node tools/scripts/postinstall.js"
   },
   "dependencies": {
     "assetmanager": "latest",

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  db: 'mongodb://dev:dev@ds035750.mongolab.com:35750/gtddev',
+  db: process.env.DB_MONGOLAB,
   /**
    * Database options that will be passed directly to mongoose.connect
    * Below are some examples.

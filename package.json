@@ -24,6 +24,7 @@
     "body-parser": "latest",
     "compression": "latest",
     "connect-flash": "latest",
+    "connect-modrewrite": "latest",
     "consolidate": "latest",
     "cookie-parser": "latest",
     "errorhandler": "latest",

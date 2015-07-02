@@ -86,5 +86,9 @@
     "requirejs": "latest",
     "supertest": "latest",
     "through": "latest"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install && gulp build-libs && gulp build"
   }
 }
